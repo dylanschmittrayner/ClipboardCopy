@@ -1,0 +1,10 @@
+import pyperclip
+from getpass import getpass
+import sys
+password =''
+
+while password != 'Input other password here':
+    print("Enter Password")
+    password = getpass()
+pyperclip.copy('Input master password here')
+sys.exit()
